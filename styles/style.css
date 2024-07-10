@@ -112,8 +112,40 @@
 }
 .web-img{
     margin-left: 15px;
-
 }
+.tittle-4{
+    font-size: 32px;
+     font-weight: 800;
+     text-align: center
+}
+.p4{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center
+}
+.inspiration{
+    width: 1140px;
+    min-height: 1395px;
+    margin: 0 auto;
+    border-radius: 16px;  
+} 
+.youtube {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.youtube iframe {
+        max-width: 100%;
+        border-radius: 16px;
+}    
+
+
 
 
 
