@@ -185,6 +185,55 @@
     margin-top: 40px;
     gap: 20px; /* Adds space between skill cards */
 }
+.feed {
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 257px;
+    margin-bottom: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feed form input[type="text"]{
+    width: 440px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 8px;
+    font-size: 14px;
+    border: none;
+}
+
+.feed form input[type="submit"] {
+    letter-spacing: .5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 11px 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    transition: all .2s linear;
+}
+
+.feed form input[type="submit"]:hover {
+    background-color: #dddddd;
+}
+  .footer {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+      background-color: #f8f8f8;
+  }
+
 /*  
 .skill-title{
 Font-weight: 800;
