@@ -125,7 +125,6 @@
 }
 .inspiration{
     width: 1140px;
-    min-height: 1395px;
     margin: 0 auto;
     border-radius: 16px;  
 } 
@@ -143,8 +142,81 @@
 .youtube iframe {
         max-width: 100%;
         border-radius: 16px;
-}    
+        
+} 
 
+
+
+.skill-title {
+    font-weight: 800;
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+.learn a {
+    color: rgb(17, 20, 26);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.skill {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 30%;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    gap: 20px; /* Adds space between skill cards */
+}
+/*  
+.skill-title{
+Font-weight: 800;
+Font-size:24px;
+color: rgb(13, 19, 33);
+}
+.skill-description{
+    Font-weight: 400;
+    Font-size:16px;
+    color: rgb(13, 19, 33);
+
+}
+.learn{
+color: rgb(17, 20, 26);
+font-size: 16px;
+font-weight: 700;
+
+}
+.skill{
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.skills-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+
+}
 
 
 
